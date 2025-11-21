@@ -1,0 +1,25 @@
+{
+	"name": "space-chat-back",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"dev": "ts-node src/index.ts",
+		"build": "tsc",
+		"lint": "pnpm exec biome format --write"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"packageManager": "pnpm@10.17.0",
+	"dependencies": {
+		"fastify": "^5.6.2"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.3.6",
+		"@types/node": "^24.10.1",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.9.3"
+	}
+}
